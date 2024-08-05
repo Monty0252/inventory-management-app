@@ -1,3 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Set background color to white */
+  min-height: 100%;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,6 +12,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: #ffffff; /* Set background color to white */
 }
 
 .description {
